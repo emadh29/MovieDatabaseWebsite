@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MovieDB Database Metadata</title>
+    <style>
+        table {
+            width: 50%;
+            margin: auto;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th:first-child, td:first-child {
+            text-align: center;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<button onclick="window.location.href = 'add-star.html';" class="btn btn-primary">Add Star</button>
+<button onclick="window.location.href = 'add-movie.html';" class="btn btn-primary">Add Movie</button>
+<body>
+<table>
+    <thead>
+    <tr>
+        <th>Table Name</th>
+        <th style="text-align: center;">Attributes</th>
+        <th>Type</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td rowspan="4">movies</td>
+        <td style="text-align: center;">id</td>
+        <td>varchar</td>
+    </tr>
+    <tr>
+        <td>title</td>
+        <td>varchar</td>
+    </tr>
+    <tr>
+        <td>year</td>
+        <td>integer</td>
+    </tr>
+    <tr>
+        <td>director</td>
+        <td>varchar</td>
+    </tr>
+    <tr>
+        <td rowspan="3">stars</td>
+        <td style="text-align: center;">id</td>
+        <td>varchar</td>
+    </tr>
+    <tr>
+        <td>name</td>
+        <td>varchar</td>
+    </tr>
+    <tr>
+        <td>birthYear</td>
+        <td>integer</td>
+    </tr>
+    <tr>
+        <td rowspan="2">stars_in_movies</td>
+        <td style="text-align: center;">starId</td>
+        <td>varchar</td>
+    </tr>
+    <tr>
+        <td>movieId</td>
+        <td>varchar</td>
+    </tr>
+    <tr>
+        <td rowspan="2">genres</td>
+        <td style="text-align: center;">id</td>
+        <td>integer</td>
+    </tr>
+    <tr>
+        <td>name</td>
+        <td>varchar</td>
+    </tr>
+    <tr>
+        <td rowspan="2">genres_in_movies</td>
+        <td style="text-align: center;">genreId</td>
+        <td>integer</td>
+    </tr>
+    <tr>
+        <td>movieId</td>
+        <td>varchar</td>
+    </tr>
+    <tr>
+        <td rowspan="6">customers</td>
+        <td style="text-align: center;">id</td>
+        <td>integer</td>
+    </tr>
+    <tr>
+        <td>firstName</td>
+        <td>varchar</td>
+    </tr>
+    <tr>
+        <td>lastName</td>
+        <td>varchar</td>
+    </tr>
+    <tr>
+        <td>ccId</td>
+        <td>varchar</td>
+    </tr>
+    <tr>
+        <td>address</td>
+        <td>varchar</td>
+    </tr>
+    <tr>
+        <td>email</td>
+        <td>varchar</td>
+    </tr>
+    <tr>
+        <td rowspan="4">sales</td>
+        <td style="text-align: center;">id</td>
+        <td>integer</td>
+    </tr>
+    <tr>
+        <td>customerId</td>
+        <td>integer</td>
+    </tr>
+    <tr>
+        <td>movieId</td>
+        <td>varchar</td>
+    </tr>
+    <tr>
+        <td>saleDate</td>
+        <td>date</td>
+    </tr>
+    <tr>
+        <td rowspan="4">creditcards</td>
+        <td style="text-align: center;">id</td>
+        <td>varchar</td>
+    </tr>
+    <tr>
+        <td>firstName</td>
+        <td>varchar</td>
+    </tr>
+    <tr>
+        <td>lastName</td>
+        <td>varchar</td>
+    </tr>
+    <tr>
+        <td>expiration</td>
+        <td>date</td>
+    </tr>
+    <tr>
+        <td rowspan="3">ratings</td>
+        <td style="text-align: center;">movieId</td>
+        <td>varchar</td>
+    </tr>
+    <tr>
+        <td>rating</td>
+        <td>float</td>
+    </tr>
+    <tr>
+        <td>numVotes</td>
+        <td>integer</td>
+    </tr>
+    <tr>
+        <td rowspan="3">employees</td>
+        <td style="text-align: center;">email</td>
+        <td>varchar</td>
+    </tr>
+    <tr>
+        <td>password</td>
+        <td>varchar</td>
+    </tr>
+    <tr>
+        <td>fullName</td>
+        <td>varchar</td>
+    </tr>
+    </tbody>
+</table>
+</body>

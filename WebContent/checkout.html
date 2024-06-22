@@ -1,0 +1,53 @@
+<!-- This page will be seen if you logged in -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Checkout</title>
+</head>
+<button onclick="window.location.href = 'index.html';" class="btn btn-primary">Home</button>
+<button onclick="window.location.href = 'cart.html';" class="btn btn-primary">Checkout</button>
+<body>
+<h1> Payment Information </h1>
+<form id="credit_card_info" method="post" action="#">
+    <label><b>First Name</b></label>
+    <label>
+        <input name="first_name" placeholder="First Name" type="text">
+    </label>
+    <br>
+    <label><b>Last Name</b></label>
+    <label>
+        <input name="last_name" placeholder="Last Name" type="text">
+    </label>
+    <br>
+    <label><b>Credit Card Number</b></label>
+    <label>
+        <input name="cc_num" placeholder="Credit Card Number" type="password">
+    </label>
+    <br>
+    <label><b>Expiration Date</b></label>
+    <label>
+        <input name="exp_date" placeholder="Expiration Date" type="date" required>
+    </label>
+    <br>
+    <input type="submit" value="Place Order">
+</form>
+
+<div id="payment_error_message"></div>
+
+<!-- Load jQuery and Bootstrap JS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+<script type='text/javascript' src='checkout.js'></script>
+</body>
+</html>

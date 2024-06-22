@@ -1,0 +1,59 @@
+08-Apr-2024 12:25:06.583 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.20
+08-Apr-2024 12:25:06.586 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 19 2024 12:49:58 UTC
+08-Apr-2024 12:25:06.586 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.20.0
+08-Apr-2024 12:25:06.586 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+08-Apr-2024 12:25:06.586 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            13.5.1
+08-Apr-2024 12:25:06.587 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+08-Apr-2024 12:25:06.587 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/alexanderspraggins/Library/Java/JavaVirtualMachines/openjdk-21.0.1/Contents/Home
+08-Apr-2024 12:25:06.587 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.1+12-29
+08-Apr-2024 12:25:06.587 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+08-Apr-2024 12:25:06.587 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/alexanderspraggins/Library/Caches/JetBrains/IntelliJIdea2023.2/tomcat/00c75d68-a6b5-469d-8ce9-8c13c19c593e
+08-Apr-2024 12:25:06.587 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/alexanderspraggins/Libraries/Tomcat
+08-Apr-2024 12:25:06.590 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/alexanderspraggins/Library/Caches/JetBrains/IntelliJIdea2023.2/tomcat/00c75d68-a6b5-469d-8ce9-8c13c19c593e/conf/logging.properties
+08-Apr-2024 12:25:06.590 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Apr-2024 12:25:06.590 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote=
+08-Apr-2024 12:25:06.591 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.port=1099
+08-Apr-2024 12:25:06.591 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.ssl=false
+08-Apr-2024 12:25:06.591 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.password.file=/Users/alexanderspraggins/Library/Caches/JetBrains/IntelliJIdea2023.2/tomcat/00c75d68-a6b5-469d-8ce9-8c13c19c593e/jmxremote.password
+08-Apr-2024 12:25:06.591 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.access.file=/Users/alexanderspraggins/Library/Caches/JetBrains/IntelliJIdea2023.2/tomcat/00c75d68-a6b5-469d-8ce9-8c13c19c593e/jmxremote.access
+08-Apr-2024 12:25:06.591 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.rmi.server.hostname=127.0.0.1
+08-Apr-2024 12:25:06.591 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+08-Apr-2024 12:25:06.591 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+08-Apr-2024 12:25:06.591 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+08-Apr-2024 12:25:06.592 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+08-Apr-2024 12:25:06.592 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+08-Apr-2024 12:25:06.592 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+08-Apr-2024 12:25:06.592 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+08-Apr-2024 12:25:06.592 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-Apr-2024 12:25:06.592 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/alexanderspraggins/Library/Caches/JetBrains/IntelliJIdea2023.2/tomcat/00c75d68-a6b5-469d-8ce9-8c13c19c593e
+08-Apr-2024 12:25:06.592 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/alexanderspraggins/Libraries/Tomcat
+08-Apr-2024 12:25:06.592 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/alexanderspraggins/Libraries/Tomcat/temp
+08-Apr-2024 12:25:06.606 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/alexanderspraggins/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+08-Apr-2024 12:25:06.754 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+08-Apr-2024 12:25:06.766 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [331] milliseconds
+08-Apr-2024 12:25:06.793 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+08-Apr-2024 12:25:06.793 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.20]
+08-Apr-2024 12:25:06.799 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+08-Apr-2024 12:25:06.811 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [44] milliseconds
+Connected to server
+08-Apr-2024 12:25:07.715 INFO [RMI TCP Connection(2)-127.0.0.1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Apr-2024 12:25:16.852 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alexanderspraggins/Libraries/Tomcat/webapps/manager]
+08-Apr-2024 12:25:16.992 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alexanderspraggins/Libraries/Tomcat/webapps/manager] has finished in [135] ms
+08-Apr-2024 12:25:19.506 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+08-Apr-2024 12:25:19.519 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+08-Apr-2024 12:25:19.543 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+08-Apr-2024 12:25:19.562 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [cs122b_project1_api_example_war] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+08-Apr-2024 12:25:19.563 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cs122b_project1_api_example_war] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1847)
+ java.base/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+ java.base/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+ java.base/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+08-Apr-2024 12:25:19.587 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+08-Apr-2024 12:25:19.591 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+Disconnected from server

@@ -1,0 +1,130 @@
+<!-- This example is following frontend and backend separation.
+
+    This .html performs two steps:
+    1. Create a html template skeleton, with all the elements defined (some left empty) and named with ids.
+    2. Load single-movie.js to populate the data into empty elements.
+    -->
+
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Browse Movies</title>
+
+    <style>
+        .container {
+            text-align: center;
+        }
+
+        #genres {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 5px;
+            justify-content: center;
+        }
+
+        .container a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<button onclick="window.location.href = 'index.html';" class="btn btn-primary">Home</button>
+<button onclick="window.location.href = 'cart.html';" class="btn btn-primary">Checkout</button>
+
+<div class="container">
+    <h3>Browse Movies (Genres)</h3>
+    <div id="genres"></div>
+    <br>
+    <h3>Browse Movies (Title)</h3>
+    <a href="result.html?title=*"> * </a>
+
+    <a href="result.html?title=0"> 0 </a>
+    <a href="result.html?title=1"> 1 </a>
+    <a href="result.html?title=2"> 2 </a>
+    <a href="result.html?title=3"> 3 </a>
+    <a href="result.html?title=4"> 4 </a>
+    <a href="result.html?title=5"> 5 </a>
+    <a href="result.html?title=6"> 6 </a>
+    <a href="result.html?title=7"> 7 </a>
+    <a href="result.html?title=8"> 8 </a>
+    <a href="result.html?title=9"> 9 </a>
+
+    <a href="result.html?title=A"> A </a>
+    <a href="result.html?title=B"> B </a>
+    <a href="result.html?title=C"> C </a>
+    <a href="result.html?title=D"> D </a>
+    <a href="result.html?title=E"> E </a>
+    <a href="result.html?title=F"> F </a>
+    <a href="result.html?title=G"> G </a>
+    <a href="result.html?title=H"> H </a>
+    <a href="result.html?title=I"> I </a>
+    <a href="result.html?title=J"> J </a>
+    <a href="result.html?title=K"> K </a>
+    <a href="result.html?title=L"> L </a>
+    <a href="result.html?title=M"> M </a>
+    <a href="result.html?title=N"> N </a>
+    <a href="result.html?title=O"> O </a>
+    <a href="result.html?title=P"> P </a>
+    <a href="result.html?title=Q"> Q </a>
+    <a href="result.html?title=R"> R </a>
+    <a href="result.html?title=S"> S </a>
+    <a href="result.html?title=T"> T </a>
+    <a href="result.html?title=U"> U </a>
+    <a href="result.html?title=V"> V </a>
+    <a href="result.html?title=W"> W </a>
+    <a href="result.html?title=X"> X </a>
+    <a href="result.html?title=Y"> Y </a>
+    <a href="result.html?title=Z"> Z </a>
+    <br>
+    <br>
+</div>
+
+<div class="container">
+    <form id="autocomplete-form">
+        <label>
+            <input type="text" name="autocomplete"
+                   class = "autocomplete-searchbox form-control"
+                   placeholder="Search Movies" id="autocomplete">
+        </label>
+        <input type="submit" value="Search">
+    </form>
+</div>
+
+
+<!-- Load jQuery and Bootstrap JS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.devbridge-autocomplete/1.4.11/jquery.autocomplete.min.js"></script>
+
+<!-- Load our own JS file -->
+<!-- The path is relative to single-movie.html, since these two files are in the same directory -->
+<!-- Note the url does not contain a "/" in the beginning, which means the url is relative to current path
+     otherwise the url is relative to the root path-->
+<script src="index.js"></script>
+<script src="autocomplete.js"></script>
+
+<style>
+    .autocomplete-suggestions { border: 1px solid #999; background: #FFF; overflow: auto; }
+    .autocomplete-suggestion { padding: 2px 5px; white-space: nowrap; overflow: hidden; }
+    .autocomplete-selected { background: #F0F0F0; }
+    .autocomplete-suggestions strong { font-weight: normal; color: #3399FF; }
+    .autocomplete-group { padding: 2px 5px; }
+    .autocomplete-group strong { display: block; border-bottom: 1px solid #000; }
+</style>
+
+</body>
+
+
+</html>
